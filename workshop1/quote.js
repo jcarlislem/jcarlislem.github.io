@@ -4,10 +4,10 @@
  * L&T quote generator
  */
 
-var things = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var programmers = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
+var things = ["Cheese", "Art", "Potato", "Theater", "Math", "Architecture"];
+var programmers = ["plumber", "artist", "gardener", "chef", "cat", "flower"]
 var castles = ["museums", "bridges", "cities"]
-var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
+var exertions = ["effort", "ease", "struggle", "toil", "endeavor", "fun", "labor"];
 var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
 
 function choosei(lst){
@@ -35,7 +35,7 @@ q.innerHTML =
     "\"The " + programmer +
     ", like the poet, works only slightly removed from pure thought-stuff. He builds his " +
     castles + " in the " + air + ", from " + air + ", creating by " + exertion + " of the imagination.\"" +
-    "\u2014" +  "Fred Brooks, " + programmer;
+    "\u2014" +  "Julia Mueller, " + programmer;
 
 q.innerHTML += "<br><br><br>";
 
@@ -48,4 +48,4 @@ for (var i = 0; i < is.length; i = i + 1){
     q.innerHTML += "Language " + is[i] + " code. <br>";
 }
 
-q.innerHTML += "\u2014 For Loop";
+q.innerHTML += "\u2014 Fruit Loop";
