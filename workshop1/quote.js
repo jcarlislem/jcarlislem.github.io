@@ -6,7 +6,7 @@
 
 var things = ["Cheese", "Art", "Potato", "Theater", "Math", "Architecture"];
 var programmers = ["plumber", "artist", "gardener", "chef", "cat", "flower"]
-var castles = ["museums", "bridges", "cities"]
+var castles = ["", "bridges", "cities"]
 var exertions = ["effort", "ease", "struggle", "toil", "endeavor", "fun", "labor"];
 var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
 
@@ -44,7 +44,7 @@ var is = ["is", "is not", "is like", "includes", "excludes", "is beyond",
 	  "extends", "encodes", "represents", "signifies", "consists of"];
 
 for (var i = 0; i < is.length; i = i + 1){
-    q.innerHTML += "Code " + is[i] + " language. <br>";
+    q.innerHTML += "Cheese " + is[i] + " language. <br>";
     q.innerHTML += "Language " + is[i] + " code. <br>";
 }
 
